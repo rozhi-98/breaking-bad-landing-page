@@ -95,7 +95,6 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .about {
@@ -190,4 +189,47 @@ main {
   color: var(--color-white);
   background-color: var(--color-myGold);
   margin-bottom: 1rem;
+}
+
+footer {
+  background: linear-gradient(135deg, #1f2e21 5%, #62501d);
+  color: #fff;
+  padding: 5rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  color: var(--color-body);
+  margin-bottom: 2rem;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer-links li,
+.footer-social li {
+  margin-right: 2rem;
+}
+
+.footer-links a,
+.footer-social a {
+  color: var(--color-body);
+}
+
+.footer-copyright p {
+  color: var(--color-body);
+  margin: 0;
 }
